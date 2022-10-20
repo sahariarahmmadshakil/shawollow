@@ -12,14 +12,25 @@
     #a48c68;
 }
 
+.experience-area{
+    background-color: #e6e6e6;
+}
+
+.video-area{
+    height: 650px;
+    background-color: #ffffff;
+}
 
 
+.custom-progress{
+    background-color: #e6e6e6;
+    border-radius:10px ;
+}
 
-
-
-
-
-
+.custom-progress-bar{
+    background-color: #a48c68;
+    border-radius:10px ;
+}
 
 
 
