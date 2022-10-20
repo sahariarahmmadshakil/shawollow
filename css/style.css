@@ -1,4 +1,45 @@
-@import url('https://fonts.googleapis.com/css?family=Libre+Caslon+Text:400,700&display=swap');
+
+.media-kit-button{
+    /* height: 87px;
+    width: 350px; */
+    font-size: 24px;
+    top: 50%;
+    left: 50%;
+
+}
+.about-me-area{
+    background-color: 
+    #a48c68;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* @import url('https://fonts.googleapis.com/css?family=Libre+Caslon+Text:400,700&display=swap');
 
 
 body {
@@ -155,4 +196,4 @@ input.hamburger-checkbox {
     width: 10vw;
     opacity: 0;
     height: 6vh;
-}
+} */
