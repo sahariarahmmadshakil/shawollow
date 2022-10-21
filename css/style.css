@@ -1,15 +1,44 @@
+/* custom fonts  */
+@font-face {
+    font-family: OpenSauceSans-Regular;
+    src: url(../fonts/OpenSauceSans-Regular.ttf);
+}
+
+@font-face {
+    font-family: TTHoves-Bold;
+    src: url(../fonts/TTHoves-Bold.ttf);
+}
+
+.TTHoves-Bold {
+    font-family: 'TTHoves-Bold';
+}
+
+.OpenSauceSans-Regular {
+    font-family: 'OpenSauceSans-Regular';
+}
+
 body {
     background-color:
-        #f4f5f6;
+        #ffffff;
+}
+p,h5,h5,h4,h3,h2,h1{
+    color: #000000;
+}
+.menu-container {
+    border-bottom: 1px solid #ededed;
 }
 
 .media-kit-button {
     /* height: 87px;
     width: 350px; */
+    font-size: 23.9999px;
+    color: #000000;
+    text-shadow: 1px 1px 5px #e4d1bf;
+    background-color: #ffffff;
     margin: 0 auto;
-    font-size: 18px;
-    border: 2px solid #000000;
-    padding: 15px 70px;
+    border: 4px solid #000000;
+    padding: 20px 120px;
+    margin-top: 15%;
 
 }
 
@@ -30,54 +59,78 @@ body {
 
 .custom-progress {
     background-color: #e6e6e6;
-    border-radius: 10px;
+    border-radius: 20px;
+    width: 70%;
+    height: 25px;
 }
 
 .custom-progress-bar {
     background-color: #a48c68;
-    border-radius: 10px;
+    border-radius: 20px;
+    width: 85%;
+    
 }
-
+.social-icon{
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: space-around;
+}
 .social-icon>img {
     width: 15%;
 }
 
-.hamburger-checkbox{
+.hamburger-checkbox {
     display: none;
 }
-.menu-links{
+
+.menu-links {
     display: flex;
     justify-content: flex-end
 }
-.menu-links >li{
+
+.menu-links>li {
     padding-left: 15px;
     padding-right: 15px;
     list-style: none;
-    
+
 }
-.menu-links >li>a{
-    
+
+.menu-links>li>a {
+
     text-decoration: none;
     color: #55595b;
 }
-.menu-links >li:hover a{
+
+.menu-links>li:hover a {
     color: #000000;
 }
-
+.footer-area{
+    background-color: #000000;
+    width: 100%;
+    height: 116px;
+    color: #ffffff;
+}
+.footer-area >p{
+    color: #ffffff;
+}
 @media only screen and (max-width: 992px) {
 
     @import url('https://fonts.googleapis.com/css?family=Libre+Caslon+Text:400,700&display=swap');
-.media-kit-button {
-    /* height: 87px;
-    width: 350px; */
-    text-align: center;
-    margin-left:15%;
-    font-size: 18px;
-    border: 2px solid #000000;
-    padding: 15px 70px;
-    font-weight: 900;
 
-}
+    .media-kit-button {
+        /* height: 87px;
+    width: 350px; */
+        text-align: center;
+        margin-left: 25%;
+        margin-top: 2%;
+        font-size: 18px;
+        border: 2px solid #000000;
+        padding: 15px 70px;
+        font-weight: 900;
+
+    }
+
     .body-text {
         padding-top: 20vh;
         text-align: center;
@@ -127,8 +180,8 @@ body {
     }
 
     div.menu-pane {
-        background-color: 
-        #000000;
+        background-color:
+            #000000;
         position: absolute;
         opacity: 0.5;
         transform: translate(105vw);
@@ -173,5 +226,13 @@ body {
         width: 10vw;
         opacity: 0;
         height: 6vh;
+    }
+
+
+    .social-icon-area>p{
+        font-size: 12px;
+    }
+    .social-icon-area>h1{
+        font-size: 18px;
     }
 }
