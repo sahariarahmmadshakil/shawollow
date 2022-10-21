@@ -1,210 +1,177 @@
+body {
+    background-color:
+        #f4f5f6;
+}
 
-.media-kit-button{
+.media-kit-button {
     /* height: 87px;
     width: 350px; */
-    font-size: 24px;
-    top: 50%;
-    left: 50%;
+    margin: 0 auto;
+    font-size: 18px;
+    border: 2px solid #000000;
+    padding: 15px 70px;
 
 }
-.about-me-area{
-    background-color: 
-    #a48c68;
+
+.about-me-area {
+    background-color:
+        #a48c68;
 }
 
-.experience-area{
+.experience-area {
     background-color: #e6e6e6;
 }
 
-.video-area{
+.video-area {
     height: 650px;
     background-color: #ffffff;
 }
 
 
-.custom-progress{
+.custom-progress {
     background-color: #e6e6e6;
-    border-radius:10px ;
+    border-radius: 10px;
 }
 
-.custom-progress-bar{
+.custom-progress-bar {
     background-color: #a48c68;
-    border-radius:10px ;
+    border-radius: 10px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* @import url('https://fonts.googleapis.com/css?family=Libre+Caslon+Text:400,700&display=swap');
-
-
-body {
-    font-family: Libre Caslon Text;
-    background-color: #FFAB91;
+.social-icon>img {
+    width: 15%;
 }
 
-.body-text {
-    padding-top: 20vh;
-    text-align: center;
-    position: relative;
-}
-
-.hamburger-icon {
-    position: absolute;
-    z-index: 1;
-    top: 5vh;
-    right: 5vw;
-    padding-bottom: 2vh;
-}
-
-.hamburger-icon span {
-    height: 5px;
-    width: 40px;
-    background-color: black;
-    display: block;
-    margin: 5px 0px 5px 0px;
-    transition: 0.7s;
-    transform: none;
-}
-
-#openmenu:checked~.menu-pane {
-    right: 10vw;
-    transform: translateX(10vw);
-}
-
-#openmenu:checked~.body-text {
+.hamburger-checkbox{
     display: none;
 }
-
-#openmenu:checked~.hamburger-icon span:nth-of-type(2) {
-    transform: translate(0%, 175%) rotate(-45deg);
-    background-color: white;
+.menu-links{
+    display: flex;
+    justify-content: flex-end
 }
-
-#openmenu:checked~.hamburger-icon span:nth-of-type(3) {
-    transform: rotate(45deg);
-    background-color: white;
+.menu-links >li{
+    padding-left: 15px;
+    padding-right: 15px;
+    list-style: none;
+    
 }
-
-#openmenu:checked~.hamburger-icon span:nth-of-type(1) {
-    opacity: 0;
-}
-
-#openmenu:checked~.hamburger-icon span:nth-of-type(4) {
-    opacity: 0;
-}
-
-div.menu-pane {
-    background-color: #000;
-    position: absolute;
-    transform: translate(105vw);
-    transform-origin: (0, 0);
-    width: 90vw;
-    height: 100%;
-    transition: 0.6s;
-}
-
-.menu-pane p {
-    color: black;
-    font-size: 0.6em;
-}
-
-.menu-pane nav {
-    padding: 10%;
-}
-
-.menu-links li,
-a,
-span {
-    transition: 0.5s ease-in-out;
-}
-
-.menu-pane ul {
-    padding: 10%;
-    display: inline-block;
-}
-
-.menu-pane li {
-    padding-top: 20px;
-    padding-bottom: 20px;
-    margin-left: 10px;
-    font-size: 1em;
-}
-
-
-.menu-pane li:first-child {
-    font-size: 1.3em;
-    margin-left: -10px;
-}
-
-
-.menu-links li a {
-    color: white;
+.menu-links >li>a{
+    
     text-decoration: none;
+    color: #55595b;
+}
+.menu-links >li:hover a{
+    color: #000000;
 }
 
+@media only screen and (max-width: 992px) {
 
-.menu-links li:hover a {
-    color: #FFAB91;
-}
-
-.menu-links li:first-child:hover a {
-    color: black;
-    background-color: #FFAB91;
-}
-
-#QC-info {
-    background-color: #FFAB91;
-    border: 2px solid;
-    border-color: #FFAB91;
-    display: block;
-    opacity: 0;
+    @import url('https://fonts.googleapis.com/css?family=Libre+Caslon+Text:400,700&display=swap');
+.media-kit-button {
+    /* height: 87px;
+    width: 350px; */
+    text-align: center;
+    margin-left:15%;
+    font-size: 18px;
+    border: 2px solid #000000;
+    padding: 15px 70px;
+    font-weight: 900;
 
 }
+    .body-text {
+        padding-top: 20vh;
+        text-align: center;
+        position: relative;
+    }
 
-.menu-links li:first-child:hover #QC-info {
-    opacity: 1;
+    .hamburger-icon {
+        position: absolute;
+        z-index: 1;
+        top: 5vh;
+        right: 5vw;
+        padding-bottom: 2vh;
+    }
+
+    .hamburger-icon span {
+        height: 5px;
+        width: 30px;
+        background-color: black;
+        display: block;
+        margin: 5px 0px 5px 0px;
+        transition: 0.7s;
+        transform: none;
+
+    }
+
+    #openmenu:checked~.menu-pane {
+        right: 10vw;
+        transform: translateX(10vw);
+    }
+
+    #openmenu:checked~.body-text {
+        display: none;
+    }
+
+    #openmenu:checked~.hamburger-icon span:nth-of-type(2) {
+        transform: translate(0%, 175%) rotate(-45deg);
+        background-color: rgb(0, 0, 0);
+    }
+
+    #openmenu:checked~.hamburger-icon span:nth-of-type(3) {
+        transform: rotate(45deg);
+        background-color: rgb(0, 0, 0);
+    }
+
+    #openmenu:checked~.hamburger-icon span:nth-of-type(1) {
+        opacity: 0;
+    }
+
+    div.menu-pane {
+        background-color: 
+        #000000;
+        position: absolute;
+        opacity: 0.5;
+        transform: translate(105vw);
+        transform-origin: (0, 0);
+        width: 105vw;
+        height: 100%;
+        transition: 0.6s;
+    }
+
+    .menu-pane p {
+        color: black;
+        font-size: 0.6em;
+    }
+
+    .menu-links li,
+    a,
+    span {
+        transition: 0.5s ease-in-out;
+    }
+
+    .menu-pane ul {
+        padding: 10%;
+        display: inline-block;
+    }
+
+    .menu-pane li {
+        padding-top: 20px;
+        padding-bottom: 20px;
+        margin-left: 10px;
+        font-size: 1em;
+    }
+
+    .menu-links li a {
+        color: rgb(5, 5, 5);
+        text-decoration: none;
+    }
+
+    input.hamburger-checkbox {
+        position: absolute;
+        z-index: 3;
+        top: 5vh;
+        width: 10vw;
+        opacity: 0;
+        height: 6vh;
+    }
 }
-
-.menu-links li:first-child:hover #DC-info {
-    opacity: 1;
-}
-
-#DC-info {
-    background-color: #FFAB91;
-    border: 2px solid;
-    border-color: #FFAB91;
-    display: block;
-    opacity: 0;
-}
-
-
-.menu-links li:first-child a {
-    padding: 5px;
-}
-
-
-
-input.hamburger-checkbox {
-    position: absolute;
-    z-index: 3;
-    top: 5vh;
-    width: 10vw;
-    opacity: 0;
-    height: 6vh;
-} */
