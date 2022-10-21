@@ -15,36 +15,52 @@
 <body>
     <!-- nav bar  -->
     <header class="mb-4">
-        <div class="menu-container">
+        <nav class="navbar navbar-light navbar-expand-lg navbar-expand-xl navbar-expand-xxl  bg-light  fixed-top" id="nav1">
+            <div class="container-fluid">
+                <a class="navbar-brand text-secondary" href="#"><b>Shawna lea e</b></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="offcanvas offcanvas-end offcanvas-width" tabindex="-1" id="offcanvasNavbar"
+                    aria-labelledby="offcanvasNavbarLabel">
+                    <div class="offcanvas-header text-center">
+                        <h5 class="text-secondary text-center offcanvas-title" id="offcanvasNavbarLabel">Menu</h5>
+                        <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
+                            aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body offcanvas-color">
+                        <ul class="navbar-nav justify-content-end flex-grow-1 pe-4">
+                            <li class="nav-item">
+                                <a class="nav-link active text-secondary text-center" aria-current="page" href="#"><b>Home</b></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-secondary active text-center" aria-current="page" href="#about-me"><b>About Me</b></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-secondary active text-center" aria-current="page" href="#experience"><b>Experience</b></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-secondary active text-center" aria-current="page" href="#skills"><b>Skills</b></a>
+                            </li>
+                            <li class="nav-item ">
+                                <a class="nav-link text-secondary active text-center" aria-current="page" href="#portfolio"><b>Portfolio</b></a>
+                            <li class="nav-item ">
+                                <a class="nav-link text-secondary active text-center" aria-current="page" href="#contact"><b>Contact</b></a>
+                            </li>
 
-            <input type="checkbox" id="openmenu" class="hamburger-checkbox">
+                        </ul>
 
-            <div class="hamburger-icon">
-                <label for="openmenu" id="hamburger-label">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                </label>
+                    </div>
+                </div>
             </div>
-            <div class="menu-pane">
-                <nav>
-                    <ul class="menu-links">
-                        <li><a href="###"><b>Home</b></a>
-                        <li><a href="###"><b>About Me</b></a>
-                        <li><a href="###"><b>Experience</b></a>
-                        <li><a href="###"><b>Skills</b></a>
-                        <li><a href="###"><b>Portfolio</b></a>
-                        <li><a href="###"><b>Contact</b></a>
+        </nav>
 
-                    </ul>
 
-                </nav>
-            </div>
 
-        </div>
     </header>
     <!-- header  -->
-    <section class="container-fluid">
+    <section class="container-fluid" id="home">
 
         <div class="container-fluid">
             <img src="images/header-image.png" class="card-img-top" alt="...">
@@ -70,7 +86,7 @@
             <img src="images/example.png" class="card-img-top img-fluid " alt="...">
         </div>
     </section>
-    <section class="container-fluid about-me-area">
+    <section class="container-fluid about-me-area" id="about-me">
         <div class="container">
             <div class="row py-5">
                 <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6 pt-4">
@@ -116,7 +132,7 @@
             </div>
     </section>
 
-    <section class="container-fluid experience-area">
+    <section id="experience" class="container-fluid experience-area">
         <div class="container pt-5">
             <div class="row pb-4">
                 <div class="col-sm-12 col-md-12 col-lg-7 col-xl-7 col-xxl-7">
@@ -189,7 +205,7 @@
         </div>
     </section>
     <!-- what can i do area  -->
-    <section class="container-fluid " style="background-color: #dab8a2;">
+    <section id="skills" class="container-fluid " style="background-color: #dab8a2;">
         <div class="container pt-5 pb-5">
             <div class="pt-5">
                 <p class="TTHoves-Bold">WHAT I CAN DO</p>
@@ -256,7 +272,7 @@
             </div>
         </div>
     </section>
-    <section class="container pb-5 mb-3">
+    <section class="container pb-5 mb-3" id="portfolio">
         <h1 style="text-align: end;" class="my-5 py-3 TTHoves-Bold">Sample Work</h1>
         <div class="row row-cols-1 row-cols-md-3 row-cols-lg-3	row-cols-xl-3 row-cols-xxl-3 g-5">
             <div class="col">
@@ -297,7 +313,7 @@
             </div>
         </div>
     </section>
-    <section class="container-fluid" style="background-color: #000000;">
+    <section id="contact" class="container-fluid" style="background-color: #000000;">
         <div class="container">
             <div class="row">
                 <div class="col-sm-12 col-md-12 col-lg-5 col-xl-5 col-xxl-5">
