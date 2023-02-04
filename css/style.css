@@ -64,6 +64,10 @@ h1 {
 
 }
 
+.title-text {
+    font-size: 67px;
+}
+
 .common-bg {
     background-color: #a48c68;
 }
@@ -139,6 +143,7 @@ h1 {
         padding: 15px 70px;
 
     }
+
     .nav-padding {
         padding-left: 24px;
         padding-right: 24px;
@@ -149,5 +154,14 @@ h1 {
     .nav-padding {
         padding-left: 24px;
         padding-right: 24px;
+    }
+
+    .media-kit-button {
+        padding: 15px 100px;
+        margin-top: 0px;
+
+    }
+    .title-text {
+        font-size: 48px;
     }
 }
