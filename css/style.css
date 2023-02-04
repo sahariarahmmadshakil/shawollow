@@ -21,7 +21,14 @@ body {
     background-color:
         #ffffff;
 }
+html,
+body {
+    overflow-x: hidden;
+}
 
+body {
+    position: relative
+}
 p,
 h5,
 h5,
